@@ -1,2 +1,2 @@
 # Kura-Online
-Online voting platform built on JavaScript
+Online voting platform built PHP framework
