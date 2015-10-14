@@ -1,10 +1,6 @@
 <?php
-if(!mysql_connect("localhost","root",""))
-{
-     die('oops connection problem ! --> '.mysql_error());
-}
-if(!mysql_select_db("iebc"))
-{
-     die('oops database selection problem ! --> '.mysql_error());
+$dbCon = mysqli_connect("localhost", "root", "", "iebc");
+if (mysqli_connect_errno()){
+    echo "Failed to connect" .mysqli_connect_errno();
 }
 ?>

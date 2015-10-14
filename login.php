@@ -1,31 +1,29 @@
 <?php
-session_start();
-include_once 'DbConn.php';
-
-if(isset($_SESSION['user'])!="")
-{
- header("Location: home.php");
-}
-if(isset($_POST['btn-login']))
-{
- $usernamae = mysql_real_escape_string($_POST['user']);
- $password = mysql_real_escape_string($_POST['pass']);
- $res=mysql_query("SELECT * FROM login WHERE username='$username'");
- $row=mysql_fetch_array($res);
- if($row['password']==md5($password))
- {
-  $_SESSION['user'] = $row['username'];
-  header("Location: home.php");
- }
- else
- {
-  ?>
-        <script>alert('wrong details');</script>
-        <?php
- }
- 
-}
+if (!isset($_POST['submit'])){
 ?>
+<?php
+} else {
+	require_once("DbConn.php");
+	$mysqli = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
+	# check connection
+	if ($mysqli->connect_errno) {
+		echo "<p>MySQL error no {$mysqli->connect_errno} : {$mysqli->connect_error}</p>";
+		exit();
+	}
+ 
+	$username = $_POST['user'];
+	$password = $_POST['pass'];
+ 
+	$sql = "SELECT * from login WHERE username LIKE '{$username}' AND password LIKE '{$password}' LIMIT 1";
+	$result = $mysqli->query($sql);
+	if (!$result->num_rows == 1) {
+		echo "<p>Invalid username/password combination</p>";
+	} else {
+		echo "<p>Logged in successfully</p>";
+		// do stuffs
+	}
+}
+?>		
 
 <!DOCTYPE html>
 <!--
