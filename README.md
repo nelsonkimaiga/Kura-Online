@@ -1,2 +1,2 @@
 # Kura-Online
-Online voting platform built on Python
+Online voting platform built PHP framework
