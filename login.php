@@ -1,30 +1,3 @@
-<?php
-if (!isset($_POST['submit'])){
-?>
-<?php
-} else {
-	require_once("DbConn.php");
-	$mysqli = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
-	# check connection
-	if ($mysqli->connect_errno) {
-		echo "<p>MySQL error no {$mysqli->connect_errno} : {$mysqli->connect_error}</p>";
-		exit();
-	}
- 
-	$username = $_POST['user'];
-	$password = $_POST['pass'];
- 
-	$sql = "SELECT * from login WHERE username LIKE '{$username}' AND password LIKE '{$password}' LIMIT 1";
-	$result = $mysqli->query($sql);
-	if (!$result->num_rows == 1) {
-		echo "<p>Invalid username/password combination</p>";
-	} else {
-		echo "<p>Logged in successfully</p>";
-		// do stuffs
-	}
-}
-?>		
-
 <!DOCTYPE html>
 <!--
 To change this license header, choose License Headers in Project Properties.
@@ -52,7 +25,7 @@ and open the template in the editor.
           <h1>Login to Uchaguzi Online</h1>
           	
          
-        <form method="POST">
+          <form method="POST" action="DbConn.php">
         <p>
         	<label for "username">Username: </label>
         	<input type="text" name="user" id="username" class="field" placeholder="username"/>
