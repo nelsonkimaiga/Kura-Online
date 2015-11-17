@@ -73,6 +73,11 @@ form-login .form-control:focus{
   border-top-right-radius: 0;
 }
 
+select{
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
 /*input[type=text] {width: 278;}
 input[type=password] { width: 278px; }*/
 
