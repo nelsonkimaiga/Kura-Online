@@ -5,28 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Uchaguzi|Voters Registration and Verification</title>
-	<!-- Bootstrap -->
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.css">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
     <!-- style sheets -->
     <link rel="stylesheet" type="text/css" href="css/css.css">
 </head>
 <body>
 <!-- using tabbed layout -->
-<div class="row">
-    <div class="col s12">
-      <ul class="tabs">
-        <li class="tab col s3"><a href="#test1">Test 1</a></li>
-        <li class="tab col s3"><a class="active" href="#test2">Test 2</a></li>
-        <li class="tab col s3 disabled"><a href="#test3">Disabled Tab</a></li>
-        <li class="tab col s3"><a href="#test4">Test 4</a></li>
-      </ul>
+<div class="container">
+    
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+      <li class="active">
+          <a href="#home" role="tab" data-toggle="tab">
+              <icon class="fa fa-home"></icon> REGISTRATION
+          </a>
+      </li>
+      <li><a href="#profile" role="tab" data-toggle="tab">
+          <i class="fa fa-user"></i> VERIFICATION
+          </a>
+      </li>
+      <li>
+          <a href="#messages" role="tab" data-toggle="tab">
+              <i class="fa fa-envelope"></i> ELECTIONS
+          </a>
+      </li>
+    </ul>
+    
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <div class="tab-pane fade active in" id="home">
+          <h2>Home Content Goes Here</h2>
+          <img src="http://lorempixel.com/400/400/cats/1" alt="Cats"/>
+      </div>
+      <div class="tab-pane fade" id="profile">
+          <h2>Profile Content Goes Here</h2>
+          <img src="http://lorempixel.com/400/400/cats/2" alt="Cats"/>
+      </div>
+      <div class="tab-pane fade" id="messages">
+          <h2>Messages Content Goes Here</h2>
+          <img src="http://lorempixel.com/400/400/cats/3" alt="Cats"/>
+      </div>
+      <div class="tab-pane fade" id="settings">
+          <h2>Settings Content Goes Here</h2>
+          <img src="http://lorempixel.com/400/400/cats/4" alt="Cats"/>
+      </div>
     </div>
-    <div id="test1" class="col s12">Test 1</div>
-    <div id="test2" class="col s12">Test 2</div>
-    <div id="test3" class="col s12">Test 3</div>
-    <div id="test4" class="col s12">Test 4</div>
-  </div>
+    
+</div>
 
 </body>
 </html>
