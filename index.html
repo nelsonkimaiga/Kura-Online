@@ -4,60 +4,49 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
-
-<html>
-    <head>
-        <title>Kura Online</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <!-- <link rel="stylesheet" type="text/css" href="css.css"> -->
-        <!-- bootstrap linking for styling and look and feel -->
-        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="css/css.css">
-        <!-- offline bootstrap -->
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-
-
-        <!-- Javascript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-        <!-- offline javascript bootstrap -->
-        <script src="js/bootstrap.js"></script>
-        <script src="js/bootstrapmin.js"></script>
-
-
-
-    </head>
-    <body>
-    <!--header image with IEBC logo-->
-<header>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Uchaguzi</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- style sheets -->
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+  </head>
+  <body>
+ 
+    <!-- header -->
+    <header>
   <img class="logo" src="iebc.jpg" alt="logo">
 </header>
-
-
 <section class="container">
      <div class="login">
+<form class="form-login">
 
+        <h2 class="form-login-heading">Please Log in to continue</h2>
+        <label for="inputEmail" class="sr-only">Username</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <label for="domain" class="sr-only">Log in as</label>
+        <select>
+            <option value="Administrator">Administrator</option>
+            <option value="returningofficer">Returning Officer</option>
+        </select>
 
-          <h3>Login to Uchaguzi Online</h3>
-
-
-          <form method="POST" action="validate_login.php">
-        <p>
-        	<label for = "username">Username: </label>
-        	<input type="text" name="user" id="username" class="field" placeholder="username"/>
-        </p>
-        <p>
-        	<label for="password">Password: </label>
-        	<input type="password" name="pass" id="password" class="field" placeholder="password">
-        </p>
-        <div class="button">
-        <button id="submit" name = "btn-login" value="send credentials">Login</button>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
         </div>
-        <label for="">
-        	<input type="checkbox" name="remember_me" id="remember_me">Remember me on this computer
-        </label>
-        </form>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+      </form>
+
+    </div>
+
         <div class="login-help">
     <p>Forgot your password? <a href="index.html">Click here to reset it</a>.</p>
   </div>
@@ -65,6 +54,8 @@ and open the template in the editor.
 
         </section>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    </body>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
