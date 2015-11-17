@@ -11,7 +11,8 @@ and open the template in the editor.
 @import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,200);
 @import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:400,300);
 html, body{
-    padding: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
     margin: 0px;
     background-color: #F2FDF3;
     font-size: 13px;
