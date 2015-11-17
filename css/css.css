@@ -34,6 +34,15 @@ html, body{
     border-radius: 3px;
 }
 
+form-login{
+    max-width: 340px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+form-login .form-login-heading, .form-login .checkbox{
+margin-bottom: 10px;
+}
 input[type=text] {width: 278;}
 input[type=password] { width: 278px; }
 
