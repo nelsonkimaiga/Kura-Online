@@ -51,11 +51,30 @@ font-weight: normal;
 form-login .form-control{
     position: relative;
     height: auto;
-    -webkit -box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
 }
 
-input[type=text] {width: 278;}
-input[type=password] { width: 278px; }
+form-login .form-control:focus{
+    z-index: 2;
+}
+
+.form-login .input[type="email"]{
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-login input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/*input[type=text] {width: 278;}
+input[type=password] { width: 278px; }*/
 
 
 
@@ -78,14 +97,14 @@ input{
     color: #29521F;
 }
 
-input[type=text], input[type=password] {
+/*input[type=text], input[type=password] {
 margin: 5px;
 padding: 0 10px;
 width: 200px;
 height: 34px;
 background: white;
 border: 1px solid;
-}
+}*/
 
 img.logo{
     display: block;
