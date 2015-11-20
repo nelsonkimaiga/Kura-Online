@@ -14,11 +14,11 @@
 <body>
 <!-- implementing the grid -->
 <div class="container">
-<div class="row">
-	<div class="col-sm-6">
+<!-- <div class="row"> -->
+	<div class=".col-md-6">
 		<!-- adding voter's registration form -->
-<label><h2>Voter's Details</h2></label>
-
+<label><h2>Registration</h2></label>
+<div class="">
 		<form>
 			<fieldset class="form-group">
 				<label for="inputID">ID Card Number</label>
@@ -57,28 +57,47 @@
 					<label>Date of Birth</label>
 					<input type="date" name="dateofbirth">
 			</fieldset>
-			<button type="submit" class="btn btn-primary">Save</button>
-		</form>
-	</div>
 	<!-- grid two  -->
-	<div class="col-sm-6">
-		<label><h2>Voter's card details</h2></label>
-		<form>
+	<!-- <div class="col-sm-6"> -->
+		<!-- <label><h2>Voter's card details</h2></label> -->
+		
 			<fieldset class="form-group">
 				<label for="voterid">Voter ID</label>
 				<input type="text" class="form-control" id="VoterID" placeholder="Enter Voter id">
 			</fieldset>
 			<fieldset class="form-group">
-				<label for="selectplace">Place of Issue</label>
+				<label for="selectplace">Ward</label>
 				<select class="form-control" id="PlaceofIssue">
+				<!-- List of wards to be populated here -->
 					<option></option>
 				</select>
 			</fieldset>
+
+			<fieldset class="form-group">
+				<label for="voterid">Constituency</label>
+				<input type="text" class="form-control" id="VoterID" placeholder="Enter Constitutency">
+			</fieldset>
+
+			<fieldset class="form-group">
+				<label for="voterid">County</label>
+				<input type="text" class="form-control" id="VoterID" placeholder="Enter County">
+			</fieldset>
+
+			<fieldset class="form-group">
+				<label for="voterid">Polling Center</label>
+				<input type="text" class="form-control" id="VoterID" placeholder="Enter Polling Center">
+			</fieldset>
+
+			<fieldset class="form-group">
+					<label>Date of Issue</label>
+					<input type="date" name="dateofbirth">
+			</fieldset>
+				<button type="submit" class="btn btn-primary">Save</button>
 		</form>
 	</div>
 </div>
-</div>
 
+</div>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
