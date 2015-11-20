@@ -13,6 +13,7 @@
 </head>
 <body>
 <!-- implementing the grid -->
+<div class="container">
 <div class="row">
 	<div class="col-sm-6">
 		<!-- adding voter's registration form -->
@@ -20,20 +21,20 @@
 
 		<form>
 			<fieldset class="form-group">
-				<label>ID Card Number</label>
+				<label for="inputID">ID Card Number</label>
 				<input type="text" class="form-control" id="inputIdNumber" placeholder="Enter card number">
 			</fieldset>
 			<fieldset class="form-group">
-				<label>Surname</label>
+				<label for="inputSurname">Surname</label>
 				<input type="text" class="form-control" id="inputSurname" placeholder="Enter Surname">
 			</fieldset>
 			<fieldset class="form-group">
-				<label>Middle Name</label>
+				<label for="inputMiddle">Middle Name</label>
 				<input type="text" class="form-control" id="inputMiddleName" placeholder="Enter Middle Name">
 			</fieldset>
 
 			<fieldset class="form-group">
-				<label>First Name</label>
+				<label for="inputFirst">First Name</label>
 				<input type="text" class="form-control" id="inputFirstName" placeholder="Enter First Name">
 			</fieldset>
 
@@ -60,9 +61,23 @@
 		</form>
 	</div>
 	<!-- grid two  -->
-	<div class="col-sm-6"></div>
+	<div class="col-sm-6">
+		<label><h2>Voter's card details</h2></label>
+		<form>
+			<fieldset class="form-group">
+				<label for="voterid">Voter ID</label>
+				<input type="text" class="form-control" id="VoterID" placeholder="Enter Voter id">
+			</fieldset>
+			<fieldset class="form-group">
+				<label for="selectplace">Place of Issue</label>
+				<select class="form-control" id="PlaceofIssue">
+					<option></option>
+				</select>
+			</fieldset>
+		</form>
+	</div>
 </div>
-
+</div>
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
