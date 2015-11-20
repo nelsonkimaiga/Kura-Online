@@ -14,9 +14,49 @@
 <body>
 <!-- implementing the grid -->
 <div class="row">
-	<div class="col-sm-6"></div>
+	<div class="col-sm-6">
+		<!-- adding voter's registration form -->
+		<form>
+			<fieldset class="form-group">
+				<label>ID Card Number</label>
+				<input type="text" class="form-control" id="inputIdNumber" placeholder="Enter card number">
+			</fieldset>
+			<fieldset>
+				<label>Surname</label>
+				<input type="text" class="form-control" id="inputSurname" placeholder="Enter Surname">
+			</fieldset>
+			<fieldset>
+				<label>Middle Name</label>
+				<input type="text" class="form-control" id="inputMiddleName" placeholder="Enter Middle Name">
+			</fieldset>
+			<fieldset>
+				<label>First Name</label>
+				<input type="text" class="form-control" id="inputFirstName" placeholder="Enter First Name">
+			</fieldset>
+			<fieldset>
+			<label>Gender</label>
+			<div class="radio">
+				<label>
+					<input type="radio" name="gender" id="optionsGender" value="option1" checked>
+					Male
+				</label>
+
+				<label>
+					<input type="radio" name="gender" id="optionsGender2" value="option2">
+					Female
+				</label>
+				
+			</div>
+			</fieldset>
+		</form>
+	</div>
 	<div class="col-sm-6"></div>
 </div>
 
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
