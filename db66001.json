@@ -1,0 +1,98 @@
+/**
+ Export to JSON plugin for PHPMyAdmin
+ @version 0.1
+ */
+
+// Database 'db66001'
+
+// db66001.account
+
+[{"Account_Id":"1","Account_No":"53993001","Account_Balance":"1000"}, {"Account_Id":"2","Account_No":"53993002","Account_Balance":"0"}]
+
+// db66001.candidates
+
+[, , , , , , , , ]
+
+// db66001.comment
+
+[{"Comment_Id":"1","Comment":"Portal building has began","Subject":"Portal  Building Commencement","Name":"Administrator","Email_Address":"admin@portal.com","Date_Posted":"2012-03-01 00:00:00"}, {"Comment_Id":"2","Comment":"Nice Job","Subject":"Billing and Payment Portal","Name":"Nairobi Water and SewageCompany","Email_Address":"admin@nwsc.com","Date_Posted":"2012-03-02 00:00:00"}, {"Comment_Id":"5","Comment":"So far so good.","Subject":"Progress Report","Name":"Shifta Google","Email_Address":"shiftamm@gmail.com","Date_Posted":"2012-03-05 00:00:00"}]
+
+// db66001.connection
+
+[{"Connection_Id":"1","Connection_No":"CON1940","Location":"Madaraka Estate Flats No. 39","Date_of_Connection":"28\/02\/2012","User_Id":"2","Account_Id":"2","Rate_Id":"1"}]
+
+// db66001.constituency_database
+
+[{"constituency_id":"CON16","name":"Kamukunji Constituency","county":"Nairobi County"}, {"constituency_id":"CON250","name":"Dagoretti Constituency","county":"Mombasa County"}]
+
+// db66001.county_database
+
+[{"county_id":"COU11","name":"Mombasa County"}, {"county_id":"COU14","name":"Lamu County"}, {"county_id":"COU16","name":"Kilifi County"}, {"county_id":"COU18","name":"Wajir County"}, {"county_id":"COU27","name":"Nairobi County"}, {"county_id":"COU30","name":"Taita Taveta County"}, {"county_id":"COU37","name":"Garissa county"}, {"county_id":"COU44","name":"Tana River County"}]
+
+// db66001.customer
+
+[{"custid":"","custname":"","custpswd":"","custgender":""}, {"custid":" 2","custname":"se","custpswd":"dr","custgender":"Male"}, {"custid":"1111","custname":"kenan","custpswd":"kenan","custgender":"Male"}, {"custid":"23","custname":"we","custpswd":"wr","custgender":"Male"}, {"custid":"4","custname":"66001","custpswd":"66001","custgender":"on"}, {"custid":"asas","custname":"dsdsd","custpswd":"sasas","custgender":"Male"}, {"custid":"dsds","custname":"66001","custpswd":"66001","custgender":"male"}, {"custid":"erre","custname":"ffgfgf","custpswd":"ffff","custgender":"on"}, {"custid":"ewe","custname":"66001","custpswd":"66001","custgender":"male"}, {"custid":"ewe1","custname":"dfdf","custpswd":"sas","custgender":"Female"}, {"custid":"ewe2","custname":"ewew","custpswd":"ewew","custgender":"Female"}, {"custid":"fdfd","custname":"fdfd","custpswd":"gfff","custgender":"Female"}, {"custid":"muga","custname":"kitinya","custpswd":"\\aa","custgender":"male"}, {"custid":"ree","custname":"sasas","custpswd":"aaaa","custgender":"Female"}, {"custid":"sdsd","custname":"dsdsd","custpswd":"qqqq","custgender":"Male"}, {"custid":"t6y","custname":"c f","custpswd":"wdsd","custgender":"Male"}, {"custid":"wawa","custname":"aaaa","custpswd":"aaaa","custgender":"Female"}, {"custid":"www","custname":"sdsds","custpswd":"wwwww","custgender":"Male"}]
+
+// db66001.election_details
+
+[{"election_id":"pooo","type":"Constituency_By_Election","election_date":"2012-04-17","county":"Lamu County","constituency":"Kasarani Constituency","ward":"Mpeketoni"}, {"election_id":"EL102","type":"General_Election","election_date":"2012-04-16","county":"Lamu County","constituency":"Makadara Constituency","ward":"Kilelengwani"}, {"election_id":"EL130","type":"General_Election","election_date":"2013-01-08","county":"N\/A","constituency":"N\/A","ward":"Select Ward"}, {"election_id":"EL112","type":"County_By_Election","election_date":"2013-01-31","county":"garissa county","constituency":"N\/A","ward":"Select Ward"}, {"election_id":"EL8","type":"Constituency_By_Election","election_date":"2013-02-04","county":"N\/A","constituency":"Dagoretti Constituency","ward":"Select Ward"}, {"election_id":"EL22","type":"General_Election","election_date":"2013-03-04","county":"N\/A","constituency":"N\/A","ward":"Select Ward"}, {"election_id":"EL54","type":"General_Election","election_date":"2013-02-04","county":"N\/A","constituency":"N\/A","ward":"Select Ward"}]
+
+// db66001.general_election_el130
+
+[{"serial_no":"VT7317","voter_id":"108","president":"Emilio Kibaki","governor":"Prof Saitoti","MP":"Kabando Wagwa","councillor":"Martha Waweru","election_id":"EL130"}, {"serial_no":"VT1615","voter_id":"173","president":"Raila Odinga","governor":"Newton Orengo","MP":"Mike Mbuvi","councillor":"Martha Waweru","election_id":"EL130"}, {"serial_no":"VT1615","voter_id":"164","president":"Stephen Musyoka","governor":"Newton Orengo","MP":"Mike Mbuvi","councillor":"Martha Waweru","election_id":"EL130"}, {"serial_no":"VT1615","voter_id":"78","president":"Uhuru Kenyatta","governor":"Proff Saitoti","MP":"Kabando Wagwa","councillor":"Martha Waweru","election_id":"EL130"}, {"serial_no":"VT8067","voter_id":"1111","president":"Raila Odinga","governor":"Newton Orengo","MP":"Mike Mbuvi","councillor":"Martha Waweru","election_id":"EL130"}, {"serial_no":"VT4897","voter_id":"12","president":"Stephen Musyoka","governor":"Proff Saitoti","MP":"Mike Mbuvi","councillor":"Martha Waweru","election_id":"EL130"}, {"serial_no":"VT276","voter_id":"3333","president":"Stephen Musyoka","governor":"Newton Orengo","MP":"Mike Mbuvi","councillor":"Martha Waweru","election_id":"EL130"}, {"serial_no":"VT367","voter_id":"0000","president":"Stephen Musyoka","governor":"Proff Saitoti","MP":"Kabando Wagwa","councillor":"Martha Waweru","election_id":"EL130"}, {"serial_no":"VT2613","voter_id":"112","president":"Stephen Musyoka","governor":"Kabando Wagwa","MP":"Kirui Ernest","councillor":"Mbuvi Gideon","election_id":"EL130"}, {"serial_no":"VT7669","voter_id":"194","president":"William Ruto","governor":"Kabando Wagwa","MP":"Kirui Ernest","councillor":"Mbuvi Gideon","election_id":"EL130"}, {"serial_no":"VT8202","voter_id":"70","president":"Kemboi Denis","governor":"Martha Karua","MP":"Kirui Ernest","councillor":"Mbuvi Gideon","election_id":"EL130"}]
+
+// db66001.general_election_pooo
+
+[{"serial_no":"VT4518","voter_id":"1111","president":"jonathan clerk","governor":"tttt ttttt","MP":"mbunge mimi","councillor":"charles taylor","election_id":"pooo"}, {"serial_no":"VT1701","voter_id":"12","president":"jonathan clerk","governor":"otieno omondi","MP":"mbunge mimi","councillor":"charles taylor","election_id":"pooo"}]
+
+// db66001.images
+
+[, , , ]
+
+// db66001.inbox
+
+[{"Inbox_Id":"1","Message":"Welcome to Nairobi Water and Sewage Company Ltd Billing and Payment Portal","Date_Posted":"2012-02-28 05:11:18","Subject":"Welcome Note","User_Id":"2"}, {"Inbox_Id":"2","Message":"Meter readings for the month of January, 2012. The meter reading was 100 units. Your connection is charged at a the rate of Kshs. 10 since it is for domestic use. The Meter reading was done by Head of Operations on 03\/02\/2012. Your water bill for January, 2012 amounts to Kshs. 1000.","Date_Posted":"2012-03-02 03:20:05","Subject":"January, 2012 Meter Reading","User_Id":"2"}]
+
+// db66001.login
+
+[{"firstname":"rerer","lastname":"rerer","username":"11111","password":"11111","address":"22222","contactno":"1111111111"}, {"firstname":"dsdsd","lastname":"sddsd","username":"12121","password":"11111","address":"11111","contactno":"1111111111"}, {"firstname":"wqqwqw","lastname":"sdsddsd","username":"12323","password":"fgfgf","address":"32323","contactno":"322322"}, {"firstname":"kenana","lastname":"kitinya","username":"12345","password":"12345","address":"12345","contactno":"1234567890"}]
+
+// db66001.mode
+
+[{"Mode_Id":"1","Mode":"Over the counter","Value":"Cash"}]
+
+// db66001.payment
+
+[{"Payment_Id":"1","Payment_Amount":"1000","Payment_Date":"2012-03-05 15:06:28","Payment_Status":"Confirmed","Mode_Id":"1","Account_Id":"2"}]
+
+// db66001.projectlogin
+
+[{"username":"12341234","userpassword":"mW1LhsHjbDZIQQO\/IuPqC5CVeAw=","sname":"admin","mname":"admin","lname":"Admin","level":"Administrator"}, {"username":"23449523","userpassword":"fEqNCco3Yq9h5ZUglD3CZJT4lBs=","sname":"Aketch","mname":"Tom","lname":"Omamo","level":"Station Officer"}, {"username":"29218635","userpassword":"8gkHg+VRPaWJMzsFDH3RIYK6Ffg=","sname":"Ernest","mname":"Kirui","lname":"Cheruiyot","level":"Station Officer"}]
+
+// db66001.rate
+
+[{"Rate_Id":"1","Rate":"10","Description":"Domestic Use"}, {"Rate_Id":"2","Rate":"5","Description":"Industrial Use"}]
+
+// db66001.reading
+
+[{"Reading_Id":"1","Reading":"100","Date_Posted":"2012-03-03 03:54:41","Month_Reading":"January","Year":"2012","Staff":"Head of Operations","Connection_Id":"1"}]
+
+// db66001.registration
+
+[{"id_no":"12345678","s_name":"Derp","m_name":"Derpette","l_name":"Derpington","gender":"Male","age":"1991-16-6","voter_id":"38","place_issue":"Mashimoni","ward":"Harambee","constituency":"Dagoretti Constituency","county":"mombasa county","poll_center":"Gatwekera","date_issue":"2013-02-12"}, {"id_no":"23887951","s_name":"Oracha","m_name":"Omondi","l_name":"Richard","gender":"Male","age":"1992-6-9","voter_id":"90","place_issue":"Huruma","ward":"Kariobangi North","constituency":"Kasarani Constituency","county":"nairobicity county","poll_center":"Gatwekera","date_issue":"2013-02-07"}, {"id_no":"28450718","s_name":"Ongeti","m_name":"J","l_name":"James","gender":"Male","age":"1991-20-7","voter_id":"172","place_issue":"Huruma","ward":"Nairobi West","constituency":"Dagoretti Constituency","county":"mombasa county","poll_center":"Kwetu","date_issue":"2013-02-13"}, {"id_no":"29218635","s_name":"Kirui","m_name":"Cheruiyot","l_name":"Ernest","gender":"Male","age":"1993-25-5","voter_id":"129","place_issue":"Corner Mbaya","ward":"Huruma","constituency":"Starehe Constituency","county":"nairobicity county","poll_center":"Laini Saba","date_issue":"2013-01-28"}, {"id_no":"29218646","s_name":"Martha","m_name":"Muthoni","l_name":"Karua","gender":"Female","age":"1971-6-5","voter_id":"42","place_issue":"Mashimoni","ward":"Nairobi West","constituency":"Dagoretti Constituency","county":"mombasa county","poll_center":"Gatwekera","date_issue":"2013-01-29"}, {"id_no":"29218656","s_name":"Mbuvi","m_name":"Sonko","l_name":"Gideon","gender":"Male","age":"1980-1-6","voter_id":"112","place_issue":"Corner Mbaya","ward":"Huruma","constituency":"Starehe Constituency","county":"nairobicity county","poll_center":"Kianda","date_issue":"2013-01-28"}, {"id_no":"29351779","s_name":"Kemboi","m_name":"Kipchumba","l_name":"Denis","gender":"Male","age":"1991-2-9","voter_id":"70","place_issue":"Huruma","ward":"Nairobi West","constituency":"Dagoretti Constituency","county":"mombasa county","poll_center":"Gatwekera","date_issue":"2013-02-11"}, {"id_no":"30594068","s_name":"Wabwoba","m_name":"Kundu","l_name":"Vincent","gender":"Male","age":"1991-4-6","voter_id":"194","place_issue":"Mathare ","ward":"Kariobangi North","constituency":"Kasarani Constituency","county":"nairobicity county","poll_center":"Gatwekera","date_issue":"2013-02-07"}, {"id_no":"45612378","s_name":"Clinton","m_name":"Bush","l_name":"Tanya","gender":"Female","age":"1989-12-8","voter_id":"106","place_issue":"Redeemed","ward":"Harambee","constituency":"Dagoretti Constituency","county":"mombasa county","poll_center":"Kichinjio","date_issue":"2013-02-13"}, {"id_no":"87654321","s_name":"Korir","m_name":"kipkemboi","l_name":"Tyson","gender":"Male","age":"1991-5-5","voter_id":"174","place_issue":"Mabatini","ward":"karuturi","constituency":"Dagoretti Constituency","county":"mombasa county","poll_center":"Kangemi","date_issue":"2013-02-13"}]
+
+// db66001.role
+
+[{"Role_Id":"1","Role":"Administrator"}, {"Role_Id":"2","Role":"Staff"}, {"Role_Id":"3","Role":"Client"}]
+
+// db66001.table_name
+
+[{"name":"dddd","admission_no":"ddd","year":"3"}]
+
+// db66001.user
+
+[{"User_Id":"1","Usern":"admin","Pass":"admin","Name":"Chief Administrator","Email_Address":"admin@portal.com","Tel_No":"0712391481","Postal_Address":"P.O.Box 42, Isiolo, Kenya","Role_Id":"1"}, {"User_Id":"2","Usern":"shifta","Pass":"shifta","Name":"Shifta Google","Email_Address":"shiftamm@gmail.com","Tel_No":"0712391481","Postal_Address":"P.O.Box 42, Isiolo, Kenya","Role_Id":"3"}, {"User_Id":"3","Usern":"staff","Pass":"staff","Name":"Head of Operations","Email_Address":"mkubwa@nwsc.com","Tel_No":"0734712083","Postal_Address":"P.O.Box 42492-00200, Nairobi Kenya","Role_Id":"2"}, {"User_Id":"4","Usern":"antony","Pass":"antony","Name":"Antony Mwangi","Email_Address":"0732710471","Tel_No":"amwangi@nwsc.com","Postal_Address":"P.O Box 64783-00200, Nairobi, Kenya.","Role_Id":"2"}]
+
+// db66001.ward_database
+
+[{"ward_id":"CON118","name":"Utalii","county":"Kasarani Constituency","constituency":"nairobicity county"}, {"ward_id":"CON155","name":"Mabatini","county":"Dagoretti Constituency","constituency":"mombasa county"}, {"ward_id":"CON187","name":"Harambee","county":"Dagoretti Constituency","constituency":"mombasa county"}, {"ward_id":"CON248","name":"Kariobangi North","county":"Kasarani Constituency","constituency":"nairobicity county"}, {"ward_id":"CON266","name":"karuturi","county":"Dagoretti Constituency","constituency":"mombasa county"}, {"ward_id":"CON37","name":"Huruma","county":"Starehe Constituency","constituency":"nairobicity county"}, {"ward_id":"CON40","name":"Nairobi West","county":"Dagoretti Constituency","constituency":"mombasa county"}]
