@@ -3,13 +3,12 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Voteke</title>
+<title>E-Voter</title>
  
   <link rel="icon" href="http://sixrevisions.com/favicon.ico" type="image/x-icon" />
   <!--<link href='https://fonts.googleapis.com/css?family=Poiret+One|Cantarell:700,1000' rel='stylesheet' type='text/css'>-->
- 
- 
   <link rel="stylesheet" href="css/mainstyle.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 
   <!--background image style-->
   <link rel="stylesheet" href="main.css">
@@ -29,10 +28,64 @@
     <section class="content">
       <h1>Your vote counts</h1>
       <p class="sub-title"><strong>Your vote is your right</p>
+<!-- timer -->
+<div class="row">
+            <div class="col-md-4 col-md-offset-4 col-sm-12">
+                <div id="movingicon">
+                      <i class="fa fa-hourglass fa-spin icon-color"></i>
+                    <br />   
+                  <div id="headLine"></div>   
+                </div>              
+            </div>
+             <!--/. HEAD LINE DIV-->
+            <!-- <div class="col-md-8 col-md-offset-2" > -->
+            <div class="col-sm-12 col-sm-8 col-md-8 col-lg-7 fh_in_2 clearfix">
+                <div id="counter"></div>
+                        <div id="counter-default" class="row">
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+                                <div class="inner">
+                                    <div id="day-number" class="timer-number"></div>
+                                    <div class="timer-text">DAYS</div>
+                                   
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+                                <div class="inner">
+                                    <div id="hour-number" class="timer-number"></div>
+                                    <div class="timer-text">HOURS</div>
+                                    
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+                                <div class="inner">
+                                    <div id="minute-number" class="timer-number"></div>
+                                    <div class="timer-text">MINS</div>
+                                  
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+                                <div class="inner">
+                                    <div id="second-number" class="timer-number"></div>
+                                    <div class="timer-text">SECONDS</div>
+
+                                   
+
+                                </div>
+                            </div>
+                        </div>
+                
+            </div>
+               <!--/. COUNTER DIV-->
+</div>
+<!-- placeholders -->
+<div class="img-circle">
+  <img src="">
+</div>
       <p><a class="button" id="load-more-content" href="#top">Select</a></p>
    </section>
   </header>
 
-  
+<script src="js/jquery.countdown.js"></script>
+<script src="js/countdown.js"></script>
 </body>
 </html>
