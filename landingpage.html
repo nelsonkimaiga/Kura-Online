@@ -1,85 +1,34 @@
-
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
 <meta charset="utf-8">
-<title>E-Voter</title>
- 
-  <link rel="icon" href="http://sixrevisions.com/favicon.ico" type="image/x-icon" />
-  <!--<link href='https://fonts.googleapis.com/css?family=Poiret+One|Cantarell:700,1000' rel='stylesheet' type='text/css'>-->
-  <!-- <link rel="stylesheet" href="css/mainstyle.css"> -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-
-  <!--background image style-->
-  <link rel="stylesheet" href="css/landingpage.css">
-  
- 
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title></title>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/bootstrap-theme.css" rel="stylesheet">
 </head>
-
 <body>
-
-  <header class="container">
-    <section class="content">
-      <h1>Your vote counts</h1>
-      <p class="sub-title"><strong>Your vote is your right</p>
-<!-- timer -->
-<div class="row">
-            <div class="col-md-4 col-md-offset-4 col-sm-12">
-                <div id="movingicon">
-                      <i class="fa fa-hourglass fa-spin icon-color"></i>
-                    <br />   
-                  <div id="headLine"></div>   
-                </div>              
-            </div>
-             <!--/. HEAD LINE DIV-->
-            <!-- <div class="col-md-8 col-md-offset-2" > -->
-            <div class="col-sm-12 col-sm-8 col-md-8 col-lg-7 fh_in_2 clearfix">
-                <div id="counter"></div>
-                        <div id="counter-default" class="row">
-                            <div class="col-md-3 col-sm-6 col-xs-12">
-                                <div class="inner">
-                                    <div id="day-number" class="timer-number"></div>
-                                    <div class="timer-text">DAYS</div>
-                                   
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 col-xs-12">
-                                <div class="inner">
-                                    <div id="hour-number" class="timer-number"></div>
-                                    <div class="timer-text">HOURS</div>
-                                    
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 col-xs-12">
-                                <div class="inner">
-                                    <div id="minute-number" class="timer-number"></div>
-                                    <div class="timer-text">MINS</div>
-                                  
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 col-xs-12">
-                                <div class="inner">
-                                    <div id="second-number" class="timer-number"></div>
-                                    <div class="timer-text">SECONDS</div>
-
-                                   
-
-                                </div>
-                            </div>
-                        </div>
-                
-            </div>
-               <!--/. COUNTER DIV-->
-</div>
-<!-- placeholders -->
-<div class="img-circle">
-  <img src="">
-</div>
-      <p><a class="button" id="load-more-content" href="#top">Select</a></p>
-   </section>
-  </header>
-
-<script src="js/jquery.countdown.js"></script>
-<script src="js/countdown.js"></script>
-</body>
+<div id="wrapper">
+  <div class="container">
+    
+  <div id="wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+          <div id="countdown"></div>             
+        </div>
+        
+      </div>    
+    </div>
+  </div>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script type="text/javascript">
+  $('#countdown').countdown('2017/08/01', function(event) {
+    $(this).html(event.strftime('%w weeks %d days <br /> %H:%M:%S'));
+  });
+</script>
+  </body>
 </html>
