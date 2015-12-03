@@ -53,11 +53,40 @@ body {
 
 #candidates{
     margin-top: 100px;
+    display: inline;
+    /*margin: 0 1em 1em 0;*/
+}
+
+#candidates img{
+margin: 0 1em 1em 0;
+position: relative;
 }
 
 .icon-color{
     color:#3366ff;
 }
+
+
+.cover-button {
+    position: relative;
+    width: 100%;
+    bottom: 30px;
+    z-index: 600;
+    text-align: right;
+    margin-top: 100px;
+}
+
+.btn {
+    padding-right: 25px;
+    padding-left: 25px;
+    position: relative;
+    transition: all .5s ease-in;
+}
+.cover-button .btn-success:hover {
+    background-color: #1e2e4d;
+    color: #fff
+}
+
 
 #slider {position: relative; overflow: hidden; height:155px;}
 #slider img {position:absolute; margin:0; display:none;}
