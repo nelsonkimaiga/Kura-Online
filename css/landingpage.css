@@ -1,183 +1,61 @@
+/*@import url('http://fonts.googleapis.com/css?family=Lato:400,300,700,900');*/
 
-html, body, .container {
-  height: 100%;
-}
-
-html, body, h1, p, a, div, section {
-  margin: 0;
-  padding: 0;
-  font-size: 100%;
-  font: inherit;
-  background-color: green;
-}
-
-
-body { 
-  font: 18px/23px "Cantarell", sans-serif;
-  color: #ffffff;
-}
-
-h1 {
-  color: #efecec;
-  text-transform: uppercase;
-  font-size: 40px;
-  line-height: 50px;
-  font-weight: 400;
-  margin-top: 20px;
-}
-
-a {
-  color: #ffffff;
-}
-
-p {
-  margin: 0 0 15px 0;
-}
-
-strong {
-  font-weight: 700;
-}
-
-blockquote {
-  display: block;
-  max-width: 480px;
-  margin: 15px auto;
-  padding: 15px;
-  background-color: rgba(0, 0, 0, 0.3);  
-  color: #e1e1e1;
-  font-family: "Kotta One", serif;
-  font-size: 22px;
-  line-height: 28px;
-}
-
-blockquote cite {
-  display: block;
-  font: 18px/23px "Cantarell", sans-serif;
-  font-size: 16px;
-  margin-top: 16px;
-  color: #cccccc;
-  text-transform: uppercase;
-}
-
-
-
-.navbar {
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
-  height: 40px;
-  z-index: 9999;
-  position: fixed;
-}
-
-  .inner {
-    position: relative;
-    margin: 0 auto;
-    text-align: left;
-    padding-left: 35px;
-  }
-
-.navbar a {
-  display: inline-block;
-  border: 1px solid #fff;
-  font-size: 10px;
-  line-height: 24px;
-  border-radius: 3px;
-  padding: 2px 15px;
-  text-decoration: none;
-  margin-top: 5px;
-}
-
-.container {
-  display: table;
-  padding-top: 80px;
-  width: 100%;
-}
-
-.content {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-}
-
-
-.sub-title {
-  margin: 50px auto;
-  font-size: 18px;
-  line-height: 23px;
-  text-transform: uppercase;
-}
-
-.button {
-  display: inline-block;
-  padding: 6px 10px;
-  color: #cafaea;
-  border: 1px solid #cafaea;
-  border-radius: 3px;
-  font-weight: 700;
-  line-height: normal;
-  text-decoration: none;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-
-
-/* Media */
-@media only screen and (max-width: 340px) {
-  
-  .container {
-    position: relative;
-    display: block;
-    float: left;
-    vertical-align: baseline;
-    margin: 0 auto;
-    padding: 80px 0 0 0;
-  }
-  
-  #more-content {
-    float: left;
-    margin-right: 10px;
-    
-  }
-  
-  body h1 {
-    font-size: 18px;
-    line-height: 23px;
-  } 
-  
-  .content, blockquote {  
-    display: inline;
-    margin: 0 auto;
-    padding-top: 80px;
-    vertical-align: baseline;
-  }
-
-  blockquote {
-    width: 150px;
-    margin: 15px auto;
+body {
+	background:  #2a2d38;
+    font-family: 'Raleway', serif;
+    font-weight: 300;
     font-size: 16px;
-    line-height: 21px;
-    background-color: transparent;
-  }
-
-  blockquote cite {
-    font-size: 14px;
-    line-height: 19px;
-  }
-
-  .sub-title {
-    font-size: 14px;
-    line-height: 21px;
-  }
-
-  .button, p {
-    max-width: 150px;
-    margin: 0 auto;
-    font-size: 15px;
-    line-height: 20px;
-  }
-
-  html, body, .container {
-    height: auto;
-  }
+    color: #666;
+    line-height: 1.6em;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
 }
+
+#countdown {
+	font-size: 38px;
+	color: #fff;
+	line-height: 1.1em;
+	margin: 40px 0 60px;
+    /*text-align: left;*/
+    display: inline;
+}
+
+#wrapper {
+	text-align: center;
+	padding: 50px 0;
+	/*background: url(../img/main-bg.jpg) no-repeat center top;*/
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 650px;
+	width: 100%;	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+/*moving icon*/
+#movingicon {
+    margin-top:2px;
+    text-align:center;
+    vertical-align:central;
+    color:rgb(255, 153, 0);
+    /*font-weight:900;*/
+    font-size:25px;
+    letter-spacing:3px;
+}
+
+.icon-color{
+    color:#3366ff;
+}
+
+#slider {position: relative; overflow: hidden; height:155px;}
+#slider img {position:absolute; margin:0; display:none;}
+#imageloader {position:relative; display:block; width: 100%; margin: 0px auto; text-align: center;}
+#imageloader img { position:relative; top:70px; z-index:100; width:128px; height:15px; display:inline;}
